@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListadoGenericoComponent } from './utilidades/listado-generico/listado-generico.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListadoGenericoComponent
   ],
   imports: [
     BrowserModule,
