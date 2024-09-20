@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front-end';
+
+  manejarVoto(voto:number):void{
+    alert(voto);
+  }
+
+  duplicarNumero(valor: number): number {
+    return valor * 2;
+  }
 }
