@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-listado-generico',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './listado-generico.component.css'
 })
 export class ListadoGenericoComponent {
+
+  @Input()
+  listado;
 
 }
